@@ -1,0 +1,8 @@
+{:paths ["src"]
+ :deps  {org.clojure/clojure          {:mvn/version "1.10.3"}
+         incanter/incanter            {:mvn/version "1.9.3"}
+         incanter/incanter-core       {:mvn/version "1.9.3"}
+         incanter/incanter-charts     {:mvn/version "1.9.3"}
+         com.lowagie/itext            {:mvn/version "2.1.7"
+                                       :exclusions  [bouncycastle/bctsp-jdk14]}
+         org.bouncycastle/bctsp-jdk14 {:mvn/version "1.38"}}}
